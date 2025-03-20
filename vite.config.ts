@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    allowedHosts: ['wtjlv8-8080.csb.app'], // Added allowedHosts here
   },
   plugins: [
     react(),
